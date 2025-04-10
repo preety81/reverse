@@ -5,7 +5,7 @@ def reverseString(str1):
         newstr += str1[i]
     return newstr
 
-str1 =input("Enter a String")
+str1 =input("Enter a String from your choice")
 strr= reverseString(str1)
 print("The Original String is:", str1)
 print("The reverse String is:", strr)         
